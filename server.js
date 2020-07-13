@@ -6,6 +6,11 @@ const app = express();
 
 connectDB();
 
+// Init middleware
+app.use(express.json({
+    extended: false
+}));
+
 app.get('/', (req, res) => res.send('API running'));
 
 // definee routes
@@ -16,4 +21,4 @@ app.use('/postts', require('./routes/api/posts'));
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, ()=> console.log(`Server running ar port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running ar port ${PORT}`));
