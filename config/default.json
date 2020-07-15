@@ -1,3 +1,4 @@
 {
-    "mongoURI" : "mongodb+srv://sime123:sime123@devconnector.9qn97.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI" : "mongodb+srv://sime123:sime123@devconnector.9qn97.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret" : "theilluminati"
 }

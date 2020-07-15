@@ -14,10 +14,10 @@ app.use(express.json({
 app.get('/', (req, res) => res.send('API running'));
 
 // definee routes
-app.use('/users', require('./routes/api/users'));
-app.use('/profile', require('./routes/api/profile'));
-app.use('/auth', require('./routes/api/auth'));
-app.use('/postts', require('./routes/api/posts'));
+app.use('/api/users', require('./routes/api/users'));
+app.use('/api/profile', require('./routes/api/profile'));
+app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/postts', require('./routes/api/posts'));
 
 const PORT = process.env.PORT || 5000;
 
