@@ -1,4 +1,6 @@
 {
-    "mongoURI" : "mongodb+srv://sime123:sime123@devconnector.9qn97.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret" : "theilluminati"
+    "mongoURI": "mongodb+srv://sime123:sime123@devconnector.9qn97.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "theilluminati",
+    "githubSecret": "413827edf5884daaf1f409c2494e814ca7f97c48",
+    "githubClientId": "eefbcfcdbdcce1a56a23"
 }
